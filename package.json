@@ -1,5 +1,5 @@
 {
-  "name": "mafia_tools",
+  "name": "mafia-tools",
   "version": "1.0.0",
   "description": "API игры Мафия Онлайн на Node.JS с поддержкой ES6 и Promise",
   "main": "src/api.js",
