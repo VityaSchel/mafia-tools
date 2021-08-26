@@ -41,16 +41,16 @@ $ yarn add mafia-tools
 
 ## Пример использования
 
-```
+```js
 import MafiaAPI from 'mafia-tools'
 
-const email = 'gadza1488@xn--80afem4h.online',
-      password = 'MD5-соль пароля, можете посмотреть алгоритм генерации в декомпилированном апк'
+const email = 'gadza1488@xn--80afem4h.online'
+const password = 'MD5-соль пароля, можете посмотреть алгоритм генерации в декомпилированном апк'
 
 let api = new MafiaAPI()
 await api.init({ email, password })
 await api.loginWithEmailPassword()
-console.log('Новый токен:', api.token);
+console.log('Новый токен:', api.token)
 
 let user = await api.getMe()
 console.log('Имя:', user.getName())
@@ -58,7 +58,7 @@ console.log('Опыт:', user.getExperience(), 'Уровень:', user.getLevel(
 console.log('Репутация:', user.getReputation())
 console.log('Сыгранные игры:', user.getPlayedGames())
 console.log('Язык:', user.getLocale())
-console.log('Пол:', user.isMale() ? 'Мужской' : 'Женский');
+console.log('Пол:', user.isMale() ? 'Мужской' : 'Женский')
 ```
 
 ## Документация
@@ -117,7 +117,7 @@ console.log('Пол:', user.isMale() ? 'Мужской' : 'Женский');
 
 Конструктор:
 
-```
+```js
 import User from 'mafia-tools/src/user'
 
 const uuData = {
@@ -187,7 +187,7 @@ new User(uuData)
 
 Возвращает объект с сыгранными играми пользователя.
 
-```
+```js
 {
   overall: uuData.pg,
   won: {
