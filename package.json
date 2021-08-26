@@ -1,0 +1,26 @@
+{
+  "name": "mafia_tools",
+  "version": "1.0.0",
+  "description": "API игры Мафия Онлайн на Node.JS с поддержкой ES6 и Promise",
+  "main": "src/api.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "api",
+    "sdk",
+    "wrapper",
+    "mafia",
+    "game"
+  ],
+  "author": "vityaschel <vityaschel@utidteam.com> (https://vityaschel.utidteam.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "json-split-stream": "^2.0.0",
+    "json5": "^2.2.0"
+  }
+}
