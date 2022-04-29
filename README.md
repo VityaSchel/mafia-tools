@@ -1,5 +1,9 @@
 # Mafia Tools
 
+## Эта библиотека устарела, используйте https://github.com/VityaSchel/mafiaonline.js
+
+## This lirbary is deprecated, use https://github.com/VityaSchel/mafiaonline.js
+
 **Этот репозиторий не поддерживается, потому что я не мазохист, если вам очень надо то вы сами все найдете и сделаете.**
 
 Враппер API для игры [Мафия Онлайн](https://play.google.com/store/apps/details?id=com.tokarev.mafia&hl=ru&gl=US)
